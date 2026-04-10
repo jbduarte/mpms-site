@@ -3,155 +3,361 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Made in Portugal, Made Sustainable — Certificação nacional de sustentabilidade para produtos industriais portugueses. Conforme com a Directiva (UE) 2024/825.">
-<meta name="theme-color" content="#2A7B6F">
-<meta property="og:title" content="Made in Portugal, Made Sustainable (MPMS)">
-<meta property="og:description" content="A certificação de sustentabilidade credível para a indústria portuguesa, alinhada com a Directiva (UE) 2024/825 e aceite pelos principais retalhistas europeus.">
+<meta name="description" content="Made in Portugal, Made Sustainable — Certificação nacional de sustentabilidade para produtos industriais portugueses. Lançamento a 27 de Setembro de 2026 sob a Directiva (UE) 2024/825.">
+<meta name="theme-color" content="#1F4D48">
+<meta property="og:title" content="Made in Portugal, Made Sustainable — MPMS">
+<meta property="og:description" content="Uma certificação credível para a indústria portuguesa, aceite pelos principais retalhistas europeus e no procurement público.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://jbduarte.github.io/mpms-site/">
+<meta property="og:url" content="https://jbduarte.com/mpms-site/">
 <title>MPMS — Made in Portugal, Made Sustainable</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700;8..60,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700&family=Figtree:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="assets/logo.png" type="image/png">
 </head>
 <body>
 
 <!-- ═══════════════════════════════════════════════════════════════
-     HERO
+     NAV — fixed, minimal
 ═══════════════════════════════════════════════════════════════ -->
-<header class="hero">
-  <div class="accent-bar"></div>
-  <div class="hero-inner">
-    <img src="assets/logo.png" alt="MPMS — Made in Portugal, Made Sustainable" class="hero-logo">
-    <h1 class="hero-title">Made in Portugal,<br><em>Made Sustainable</em></h1>
-    <p class="hero-tagline">A primeira certificação nacional de sustentabilidade para produtos industriais portugueses</p>
-    <p class="hero-subtagline">Conforme com a Directiva (UE) 2024/825 · Aceite pelos principais retalhistas europeus e no <em>procurement</em> público</p>
-    <div class="hero-cta">
-      <a class="btn-primary" href="#contacto">Contactar MPMS</a>
-      <a class="btn-secondary" href="#problema">Saber mais ↓</a>
-    </div>
+<nav class="nav">
+  <a class="nav__brand" href="#top">
+    <img src="assets/logo.png" alt="MPMS">
+    <span class="nav__mark">MPMS</span>
+  </a>
+  <div class="nav__meta">
+    <span class="nav__dot"></span>
+    <span class="nav__label">Movimento em constituição</span>
   </div>
-  <div class="hero-footer-bar"></div>
-</header>
+</nav>
+
+<main id="top">
 
 <!-- ═══════════════════════════════════════════════════════════════
-     SECÇÃO 1 — O PROBLEMA
+     HERO — editorial, asymmetric
 ═══════════════════════════════════════════════════════════════ -->
-<section id="problema" class="section section-problem">
-  <div class="section-inner">
-    <span class="section-tag">O Problema</span>
-    <h2 class="section-title">Muitas empresas portuguesas continuam sem uma certificação de sustentabilidade <em>aceite pelos principais retalhistas e no procurement</em></h2>
-    <p class="section-body">Setores inteiros da indústria portuguesa — <strong>cerâmica, vidro, cimento, cortiça, pedra natural, metais, pasta e papel, mobiliário, alimentar</strong> — ficam de fora do EU Ecolabel e sem alternativa nacional credível. O Nordic Swan e o Blue Angel não operam em Portugal. Resultado: a indústria portuguesa fica sem um selo que abra portas nos mercados europeus, nas plataformas digitais (Amazon <em>Climate Pledge Friendly</em>, ADEO <em>Home Index</em>) e na compra pública verde nacional.</p>
+<section class="hero">
+  <div class="hero__rule"></div>
 
-    <div class="urgency-box">
-      <div class="urgency-date">27 de Setembro de 2026</div>
-      <p>A partir desta data, a <strong>Directiva (UE) 2024/825</strong> torna prática comercial desleal qualquer alegação ambiental sem certificação independente verificada por terceiros acreditados. Auto-certificação e selos próprios deixam de ser permitidos, sob pena de sanções até <strong>4% do volume de negócios anual</strong>.</p>
-    </div>
+  <div class="hero__eyebrow">
+    <span class="hero__vol">Vol. I · Abr 2026</span>
+    <span class="hero__sep">·</span>
+    <span>Certificação Nacional de Sustentabilidade Industrial</span>
+  </div>
 
-    <div class="problem-icons">
-      <div class="problem-icon"><span>🏪</span><p>Retalhistas europeus exigem certificação verificada</p></div>
-      <div class="problem-icon"><span>🏛️</span><p><em>Procurement</em> público verde dá preferência a produtos certificados</p></div>
-      <div class="problem-icon"><span>⚖️</span><p>Directiva 2024/825 entra em vigor em menos de 6 meses</p></div>
+  <h1 class="hero__title">
+    <span class="line line--1">Made in</span>
+    <span class="line line--2"><em>Portugal,</em></span>
+    <span class="line line--3">Made <span class="accent">Sustainable</span>.</span>
+  </h1>
+
+  <div class="hero__below">
+    <p class="hero__lede">
+      Um selo credível para a indústria portuguesa,
+      <em>aceite pelos principais retalhistas europeus</em> e no
+      <em>procurement</em> público.
+    </p>
+
+    <div class="hero__foot">
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#contacto">
+          Contactar o movimento
+          <span class="btn__arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="btn btn--ghost" href="#problema">Saber mais</a>
+      </div>
+      <div class="dateline">
+        <span class="dateline__label">Lançamento</span>
+        <strong class="dateline__date">27 · 09 · 2026</strong>
+        <span class="dateline__ref">Directiva (UE) 2024/825</span>
+      </div>
     </div>
+  </div>
+
+  <div class="hero__scroll">
+    <span>Continuar</span>
+    <div class="hero__scroll-line"></div>
   </div>
 </section>
 
 <!-- ═══════════════════════════════════════════════════════════════
-     SECÇÃO 2 — OS 3 PILARES
+     I — O PROBLEMA
 ═══════════════════════════════════════════════════════════════ -->
-<section id="pilares" class="section section-pillars">
-  <div class="section-inner">
-    <span class="section-tag tag-gold">A Solução</span>
-    <h2 class="section-title">A certificação MPMS assenta em <em>três pilares</em></h2>
-    <p class="section-body">Um selo <strong>passa/não passa</strong>, sem níveis e sem ambiguidade. Alinhado com o EU Ecolabel, com critérios adaptados a cada sector — a começar pela cerâmica, vidro e cimento, e a expandir a outros sectores industriais portugueses.</p>
+<section class="chapter chapter--problem" id="problema" data-reveal>
+  <header class="chapter__header">
+    <span class="chapter__num">I.</span>
+    <span class="chapter__eyebrow">O problema</span>
+  </header>
 
-    <div class="pillars-grid">
-      <article class="pillar pillar-teal">
-        <div class="pillar-num">01</div>
-        <h3>EPD Verificada</h3>
-        <p>Declaração Ambiental de Produto segundo <strong>ISO 14025</strong> e <strong>EN 15804+A2</strong>, aceite de qualquer operador de programa reconhecido pela ECO Platform europeia (DAPHabitat, IBU, EPD International, EPD Italy).</p>
-      </article>
-      <article class="pillar pillar-gold">
-        <div class="pillar-num">02</div>
-        <h3>Garantias de Origem</h3>
-        <p>Energia renovável <strong>certificada e rastreável</strong> utilizada na produção, verificada através do sistema EEGO operado pela REN — convertendo um investimento de descarbonização em valor de mercado.</p>
-      </article>
-      <article class="pillar pillar-red">
-        <div class="pillar-num">03</div>
-        <h3>Auditoria Independente</h3>
-        <p>Verificação <em>on-site</em> por organismo acreditado pelo IPAC sob <strong>ISO/IEC 17065</strong> — garante a aplicação correcta dos critérios e a manutenção da certificação ao longo do tempo.</p>
-      </article>
+  <blockquote class="pullquote">
+    <p>
+      Muitas empresas portuguesas continuam sem uma certificação forte &mdash;
+      <em>aceite pelos principais retalhistas europeus e no procurement público.</em>
+    </p>
+  </blockquote>
+
+  <div class="problem-grid">
+    <div class="problem-grid__body">
+      <p class="drop">
+        Setores inteiros da indústria portuguesa &mdash; cerâmica, vidro, cimento, cortiça, pedra natural, metais, pasta e papel, mobiliário, alimentar &mdash; ficam de fora do EU Ecolabel e sem alternativa nacional credível.
+      </p>
+      <p>
+        O Nordic Swan e o Blue Angel não operam em Portugal. Resultado: a indústria portuguesa fica sem um selo que abra portas nos mercados europeus, nas plataformas digitais (Amazon <em>Climate Pledge Friendly</em>, ADEO <em>Home Index</em>) e na compra pública verde nacional.
+      </p>
     </div>
+
+    <aside class="urgency">
+      <div class="urgency__marker">
+        <span class="urgency__kicker">A partir de</span>
+        <strong class="urgency__date">27 Setembro<br>2026</strong>
+      </div>
+      <p class="urgency__body">
+        A Directiva (UE) 2024/825 torna prática comercial desleal qualquer alegação ambiental sem certificação independente verificada por terceiros acreditados. Sanções até <strong>4% do volume de negócios anual</strong>.
+      </p>
+    </aside>
+  </div>
+
+  <ul class="problem-tags">
+    <li><span class="tag__num">01</span> Retalhistas europeus exigem certificação verificada</li>
+    <li><span class="tag__num">02</span> <em>Procurement</em> público prefere produtos certificados</li>
+    <li><span class="tag__num">03</span> Directiva 2024/825 em vigor em menos de 6 meses</li>
+  </ul>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     II — A SOLUÇÃO (3 PILARES)
+═══════════════════════════════════════════════════════════════ -->
+<section class="chapter chapter--pillars" id="pilares" data-reveal>
+  <header class="chapter__header">
+    <span class="chapter__num">II.</span>
+    <span class="chapter__eyebrow">A solução</span>
+  </header>
+
+  <h2 class="chapter__title">
+    A certificação MPMS assenta em <em>três pilares</em>, alinhados com as melhores práticas europeias.
+  </h2>
+
+  <ol class="pillars">
+
+    <li class="pillar" data-reveal>
+      <div class="pillar__bar"></div>
+      <div class="pillar__body">
+        <div class="pillar__head">
+          <span class="pillar__num">01</span>
+          <span class="pillar__label">Dados verificáveis</span>
+        </div>
+        <h3 class="pillar__title">EPD Verificada</h3>
+        <p class="pillar__text">
+          Declaração Ambiental de Produto segundo <strong>ISO 14025</strong> e <strong>EN 15804+A2</strong>, aceite de qualquer operador de programa reconhecido pela ECO Platform europeia &mdash; DAPHabitat, IBU, EPD International, EPD Italy.
+        </p>
+      </div>
+    </li>
+
+    <li class="pillar" data-reveal>
+      <div class="pillar__bar"></div>
+      <div class="pillar__body">
+        <div class="pillar__head">
+          <span class="pillar__num">02</span>
+          <span class="pillar__label">Energia rastreável</span>
+        </div>
+        <h3 class="pillar__title">Garantias de Origem</h3>
+        <p class="pillar__text">
+          Energia renovável certificada e rastreável utilizada na produção, verificada através do sistema EEGO operado pela REN &mdash; convertendo um investimento de descarbonização em valor de mercado.
+        </p>
+      </div>
+    </li>
+
+    <li class="pillar" data-reveal>
+      <div class="pillar__bar"></div>
+      <div class="pillar__body">
+        <div class="pillar__head">
+          <span class="pillar__num">03</span>
+          <span class="pillar__label">Verificação independente</span>
+        </div>
+        <h3 class="pillar__title">Auditoria Acreditada</h3>
+        <p class="pillar__text">
+          Verificação <em>on-site</em> por organismo acreditado pelo IPAC sob <strong>ISO/IEC 17065</strong> &mdash; garante a aplicação correcta dos critérios e a manutenção da certificação ao longo do tempo.
+        </p>
+      </div>
+    </li>
+
+  </ol>
+
+  <div class="stamp">
+    <span class="stamp__mark">◆</span>
+    <span class="stamp__text">Passa ou não passa. Sem níveis. Sem ambiguidade.</span>
   </div>
 </section>
 
 <!-- ═══════════════════════════════════════════════════════════════
-     SECÇÃO 3 — JUNTE-SE AO MOVIMENTO (CTA)
+     III — JUNTE-SE AO MOVIMENTO (PARCEIROS)
 ═══════════════════════════════════════════════════════════════ -->
-<section id="movimento" class="section section-movement">
-  <div class="section-inner">
-    <span class="section-tag tag-red">Junte-se ao Movimento</span>
-    <h2 class="section-title">Quatro tipos de parceiro. <em>Uma missão comum.</em></h2>
-    <p class="section-body">A MPMS está a construir uma coligação fundadora até ao lançamento público de 27 de Setembro de 2026. Procuramos parceiros de quatro tipos — cada um com contribuição e ganho próprios.</p>
+<section class="chapter chapter--partners" id="movimento" data-reveal>
+  <header class="chapter__header">
+    <span class="chapter__num">III.</span>
+    <span class="chapter__eyebrow">Junte-se ao movimento</span>
+  </header>
 
-    <div class="partners-grid">
-      <article class="partner partner-01">
-        <div class="partner-type">01 · Institucional</div>
-        <p>Agências e entidades públicas que reconhecem a MPMS como ferramenta de execução de política pública de sustentabilidade industrial.</p>
-      </article>
-      <article class="partner partner-02">
-        <div class="partner-type">02 · Associativo</div>
-        <p>Associações sectoriais que divulgam a MPMS aos seus associados e fazem pontes com empresas candidatas à certificação.</p>
-      </article>
-      <article class="partner partner-03">
-        <div class="partner-type">03 · Técnico</div>
-        <p>Certificadoras, centros tecnológicos e operadores EPD que apoiam a definição de critérios e a execução técnica.</p>
-      </article>
-      <article class="partner partner-04">
-        <div class="partner-type">04 · Patrocinador</div>
-        <p>Empresas que contribuem financeiramente para o arranque do movimento e ganham reconhecimento como cofundadores.</p>
-      </article>
-    </div>
+  <h2 class="chapter__title">
+    Quatro tipos de parceiro. <em>Uma missão comum.</em>
+  </h2>
 
-    <div class="movement-cta">
-      <a class="btn-primary btn-large" href="#contacto">Quero ser parceiro fundador →</a>
-    </div>
+  <p class="chapter__lede">
+    A MPMS está a construir uma coligação fundadora até ao lançamento público de 27 de Setembro de 2026. Procuramos parceiros de quatro tipos &mdash; cada um com contribuição e ganho próprios.
+  </p>
+
+  <div class="partners">
+
+    <article class="partner" data-reveal>
+      <div class="partner__row">
+        <div class="partner__left">
+          <span class="partner__num">01</span>
+          <h3 class="partner__type">Institucional</h3>
+          <span class="partner__tag">APC · IAPMEI · AICEP · DGAE</span>
+        </div>
+        <p class="partner__desc">
+          Agências e entidades públicas que reconhecem a MPMS como ferramenta de execução de política pública de sustentabilidade industrial.
+        </p>
+      </div>
+    </article>
+
+    <article class="partner" data-reveal>
+      <div class="partner__row">
+        <div class="partner__left">
+          <span class="partner__num">02</span>
+          <h3 class="partner__type">Associativo</h3>
+          <span class="partner__tag">CIP · APICER · APCOR</span>
+        </div>
+        <p class="partner__desc">
+          Associações sectoriais que divulgam a MPMS aos seus associados e fazem pontes com empresas candidatas à certificação.
+        </p>
+      </div>
+    </article>
+
+    <article class="partner" data-reveal>
+      <div class="partner__row">
+        <div class="partner__left">
+          <span class="partner__num">03</span>
+          <h3 class="partner__type">Técnico</h3>
+          <span class="partner__tag">CTCV · Bureau Veritas · SGS · DAPHabitat</span>
+        </div>
+        <p class="partner__desc">
+          Certificadoras, centros tecnológicos e operadores EPD que apoiam a definição de critérios e a execução técnica do movimento.
+        </p>
+      </div>
+    </article>
+
+    <article class="partner" data-reveal>
+      <div class="partner__row">
+        <div class="partner__left">
+          <span class="partner__num">04</span>
+          <h3 class="partner__type">Patrocinador</h3>
+          <span class="partner__tag">EY · Leroy Merlin · Siemens</span>
+        </div>
+        <p class="partner__desc">
+          Empresas que contribuem financeiramente (EUR 50.000/ano × 2 anos) e ganham reconhecimento como cofundadores do primeiro selo nacional de sustentabilidade industrial.
+        </p>
+      </div>
+    </article>
+
+  </div>
+
+  <div class="partners__footer">
+    <a class="btn btn--primary btn--large" href="#contacto">
+      Quero ser parceiro fundador
+      <span class="btn__arrow" aria-hidden="true">→</span>
+    </a>
   </div>
 </section>
 
 <!-- ═══════════════════════════════════════════════════════════════
-     SECÇÃO 4 — CONTACTO
+     IV — CONTACTAR
 ═══════════════════════════════════════════════════════════════ -->
-<section id="contacto" class="section section-contact">
-  <div class="section-inner">
-    <span class="section-tag">Contactar</span>
-    <h2 class="section-title">Vamos falar.</h2>
-    <p class="section-body contact-body">A MPMS é cofundada pela <a href="https://www2.novasbe.unl.pt/" target="_blank" rel="noopener">NOVA School of Business and Economics</a> e pela <a href="https://rega-energy.com/" target="_blank" rel="noopener">REGA Energy Group</a>. Se é uma empresa industrial portuguesa, uma associação sectorial, uma entidade pública ou um potencial patrocinador, o primeiro passo é uma conversa.</p>
+<section class="chapter chapter--contact" id="contacto" data-reveal>
+  <header class="chapter__header">
+    <span class="chapter__num">IV.</span>
+    <span class="chapter__eyebrow">Contactar</span>
+  </header>
 
-    <div class="contact-card">
-      <div class="contact-name"><strong>João B. Duarte</strong></div>
-      <div class="contact-role">Cofundador · Nova SBE</div>
-      <a class="contact-email" href="mailto:joao.duarte@novasbe.pt">joao.duarte@novasbe.pt</a>
-    </div>
+  <h2 class="chapter__title chapter__title--center">Vamos falar.</h2>
 
-    <div class="contact-cofounders">
-      <p>Com <strong>Thomas Carrier</strong> (REGA Energy Group), <strong>Pedro Brinca</strong> (Nova SBE) e equipa alargada.</p>
+  <p class="contact__lead">
+    A MPMS é cofundada pela <a href="https://www2.novasbe.unl.pt/" target="_blank" rel="noopener">NOVA School of Business and Economics</a> e pela <a href="https://rega-energy.com/" target="_blank" rel="noopener">REGA Energy Group</a>. Se representa uma empresa industrial, uma associação, uma entidade pública ou um potencial patrocinador &mdash; o primeiro passo é uma conversa.
+  </p>
+
+  <div class="signature-card">
+    <div class="signature-card__inner">
+      <div class="signature-card__line"></div>
+      <div class="signature-card__name">João B. Duarte</div>
+      <div class="signature-card__role">Cofundador &middot; Nova School of Business and Economics</div>
+      <a class="signature-card__email" href="mailto:joao.duarte@novasbe.pt">
+        joao.duarte@novasbe.pt
+        <span class="btn__arrow">→</span>
+      </a>
     </div>
   </div>
+
+  <p class="contact__team">
+    Com <strong>Thomas Carrier</strong> (REGA Energy Group), <strong>Pedro Brinca</strong> (Nova SBE) e uma equipa alargada.
+  </p>
 </section>
+
+</main>
 
 <!-- ═══════════════════════════════════════════════════════════════
      FOOTER
 ═══════════════════════════════════════════════════════════════ -->
 <footer class="footer">
-  <div class="footer-bar"></div>
-  <div class="footer-inner">
-    <span class="footer-brand">MPMS — Made in Portugal, Made Sustainable</span>
-    <span class="footer-meta">Movimento em constituição · 2026</span>
+  <div class="footer__rule"></div>
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <img src="assets/logo.png" alt="MPMS">
+      <div class="footer__brand-text">
+        <strong>Made in Portugal, Made Sustainable</strong>
+        <span>Movimento em constituição · Abril 2026</span>
+      </div>
+    </div>
+    <nav class="footer__nav">
+      <a href="#problema">Problema</a>
+      <a href="#pilares">Pilares</a>
+      <a href="#movimento">Parceiros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="footer__meta">
+      <span>© 2026 MPMS</span>
+      <span class="footer__dot">·</span>
+      <span>NOVA SBE × REGA Energy Group</span>
+    </div>
   </div>
 </footer>
+
+<script>
+// Scroll reveal — Intersection Observer
+(() => {
+  const els = document.querySelectorAll('[data-reveal]');
+  if (!('IntersectionObserver' in window) || els.length === 0) {
+    els.forEach(el => el.classList.add('is-visible'));
+    return;
+  }
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+  els.forEach(el => io.observe(el));
+})();
+
+// Hero sequential reveal on load
+(() => {
+  requestAnimationFrame(() => {
+    document.body.classList.add('is-loaded');
+  });
+})();
+</script>
 
 </body>
 </html>
